@@ -70,6 +70,6 @@ function mostrarEp(ev, id) {
             </div>
         <div/>
         `;
-        document.querySelector(`#epsodios-${id}`).insertAdjacentHTML('beforeend', html);
+        document.querySelector(`#episodio-${id}`).insertAdjacentHTML('beforeend', html);
     }
 }
